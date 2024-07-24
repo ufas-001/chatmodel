@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package prediction;
+
+service PredictionService {
+  rpc Predict (PredictRequest) returns (PredictResponse) {}
+}
+
+message PredictRequest {
+  string message = 1;
+}
+
+message PredictResponse {
+  string answer = 1;
+}
