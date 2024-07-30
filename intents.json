@@ -1,83 +1,121 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "invoice 1",
       "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
+        "How do I create an invoice in Verzo?"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "To create an invoice, log in to your Verzo account and navigate to the Invoicing section. Click on 'Create New Invoice,' fill in the necessary details, and save or send the invoice directly to your client."
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "tag": "invoice 2",
+      "patterns": ["Can I set up recurring invoices?"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "This feature is yet to be updated."
       ]
     },
     {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
+      "tag": "invoice 3",
+      "patterns": ["How do I customize my invoices with my business logo?"],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "To customize your invoices, log in to your Verzo account and go to the Invoicing section. Select 'Invoice Settings' and upload your business logo. You can also customize the color scheme and layout."
       ]
     },
     {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
+      "tag": "invoice 4",
+      "patterns": ["Can I add payment terms and conditions to my invoices?"],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Yes, you can add payment terms and conditions. When creating or editing an invoice, there is a section for 'Payment Terms' where you can enter your specific terms and conditions."
       ]
     },
     {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
+      "tag": "invoice 5",
+      "patterns": ["How do I send invoices to my clients?"],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Once your invoice is created, you can send it directly to your client via email. In the Invoicing section, select the invoice you want to send and click on 'Send Invoice.'"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "invoice 6",
+      "patterns": ["Can I track the status of my invoices?"],
+      "responses": [
+        " Yes, Verzo allows you to track the status of your invoices. In the Invoicing section, you can see whether an invoice is sent, viewed, paid, or overdue."
+      ]
+    },
+    {
+      "tag": "invoice 7",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "How do I set up automatic payment reminders for my clients?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "To set up automatic payment reminders, go to the Invoicing section and select 'Invoice Settings'. Enable the 'Automatic Reminders' option and customize the reminder schedule."
+      ]
+    },
+    {
+      "tag": "invoice 8",
+      "patterns": [
+        "Can I apply discounts or taxes to my invoices?"
+      ],
+      "responses": [
+        "Yes, you can apply discounts and taxes to your invoices. When creating or editing an invoice, you’ll find options to add discounts and tax rates."
+      ]
+    },
+    {
+      "tag": "Account Management 1",
+      "patterns": ["How do I update my account information?"],
+      "responses": [
+        "To update your account information, log in to your Verzo account and go to the Account Settings section. From there, you can update your personal details, payment information, and preferences."
+      ]
+    },
+    {
+      "tag": "Account Management 2",
+      "patterns": ["How do I reset my password?"],
+      "responses": [
+        "If you need to reset your password, click on the 'Forgot Password' link on the login page and follow the instructions. You will receive an email with a link to reset your password."
+      ]
+    },
+    {
+      "tag": "Account Management 3",
+      "patterns": ["Can I add multiple users to my Verzo account?"],
+      "responses": [
+        "Yes, you can add multiple users to your Verzo account. Go to the Account Settings section, select 'Manage Users,' and invite team members by entering their email addresses."
+      ]
+    },
+    {
+      "tag": "Account Management 4",
+      "patterns": ["How can I complete my account setup?"],
+      "responses": [
+        "You will see a notification on your dashboard, or you can click on Add Card, and you will get a popup to input your BVN details. A 6 digit OTP will be sent to you, and you will input the code, your address, date of birth, postal code, city, and state. Once you click complete, you will be done with the account setup."
+      ]
+    },
+    {
+      "tag": "Account Management 5",
+      "patterns": ["How can I create a card?"],
+      "responses": [
+        "The first thing you would need to do is complete your account setup, The next thing to do is assign the card to a user, input the spending limit (amount and interval)"
+      ]
+    },
+    {
+      "tag": "Account Management 6",
+      "patterns": ["How can I fund my account?"],
+      "responses": [
+        "The first thing you would need to do after completing your account setup is go to the settings and check your business profile and view your verzo account details, which consists of your BVN, account name and number, etc. and you can easily fund the account"
+      ]
+    },
+    {
+      "tag": "Expense Tracking 1",
+      "patterns": ["How do I track my business expenses?"],
+      "responses": [
+        "To track expenses, log in to Verzo and go to the Expenses section. Click on 'Add Expense,' enter the details, categorize the expense, and attach any relevant receipts."
+      ]
+    },
+    {
+      "tag": "Expense Tracking 2",
+      "patterns": ["Can I import expenses from my bank account?"],
+      "responses": [
+        "Yes, Verzo allows you to import expenses directly from your bank account. Set up the integration in the Integrations section and enable automatic syncing of your transactions."
       ]
     }
   ]
